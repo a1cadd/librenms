@@ -771,6 +771,7 @@ WebHook using the attachments option, you are able to specify multiple
 webhooks along with the relevant options to go with it. Simple html
 tags are stripped from the message. All options are optional, the
 only required value is for url, without this  then no call to Slack will be made.
+Ensure you are adding the transport while browsing to your full FQDN e.g. https://librenms.fqdn.com. librenms or IP will result in failure to add
 
 We currently support the following attachment options:
 
